@@ -53,16 +53,13 @@ class App extends Component {
     } else {
       window.alert('Please install MetaMask to continue.')
     }
-    
-    
+      // ssign to values to variables: web3, netId, accounts
 
-      //assign to values to variables: web3, netId, accounts
+      // check if account is detected, then load balance&setStates, elsepush alert
 
-      //check if account is detected, then load balance&setStates, elsepush alert
+      // in try block load contracts
 
-      //in try block load contracts
-
-    //if MetaMask not exists push alert
+      // if MetaMask not exists push alert
   }
 
   async deposit(amount) {
